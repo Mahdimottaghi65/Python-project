@@ -2,27 +2,27 @@
 
 import random
 
-print ( " Sang ..... " )
-print ( " Kaghaz ..... " )
-print ( " Gheychi ..... " )
+print ( ' Sang ..... ' )
+print ( ' Kaghaz ..... ' )
+print ( ' Gheychi ..... ' )
+print ( '' )
 
+player1 = input ( ' player1 , lotfan harekat khod ra entekhab konid ... : ' ) .lower()
 
-player1 = input ( " player1 , lotfan harekat khod ra entekhab konid ... : " ) .lower()
-
-randomnumber = random.randint (1,3)
+randomnumber = random.randint(1 , 3)
+print (randomnumber)
 
 if randomnumber == 1 :
-   player2 = " Sang "
-if randomnumber == 2 :
-    player2 = " Kaghaz " 
-if randomnumber == 3 :
-    player2 = " Gheychi "
+    player2 = 'sang'
+elif randomnumber == 2 :
+    player2 = 'kaghaz'
+elif randomnumber == 3 :
+    player2 = 'gheychi'
     
-print ( player2 ) 
+print (player2)
 
 if player1 == player2 :
-    print ( ' Mosavi/draw ' )
-     
+    print ( ' Mosavi/draw ' ) 
 elif player1 == 'sang'  and  player2 == 'kaghaz' :
      print ( ' player2 winnnn ')
 elif player1 == 'sang'  and  player2 == 'gheychi' :

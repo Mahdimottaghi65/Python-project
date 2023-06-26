@@ -19,13 +19,13 @@ elif player1 == 'sang'  and  player2 == 'gheychi' :
 elif player1 == 'kaghaz'  and  player2 == 'sang' :
     print ( 'player1 winnnn' )
 elif player1 == 'kaghaz'  and  player2 == 'gheychi' :
-    print ( 'player1 winnnn' ) 
+    print ( 'player2 winnnn' ) 
     
 elif player1 == 'gheychi'  and  player2 == 'sang' :
     print ( 'player2 winnnn' )
 elif player1 == 'gheychi'  and  player2 == 'kaghaz' :
     print ( 'player1 winnnn' )
-    
+
 else :
     print ( 'yek chizi eshtebah asttt , lotfan harekat dorost ra entekhab konid' )
     
