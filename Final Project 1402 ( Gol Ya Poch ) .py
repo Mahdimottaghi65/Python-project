@@ -10,21 +10,14 @@
 
 
 
-name = input ( " Lotfan name karbari khod ra vared konid : " )
-password = input ( " Lotfan ramze oboor khod ra vared konid : " )
-
-
-name = 1401123078 and password == "0020082101"
-while name != 1401123078 and password != "0020082101" :
-     print ( " Lotfan name karbari va ramze oboor sahih ra vared konid " )
-     print ( " Yek ja Eshtebahi Rokh Dade Astt " ) 
-
-     password = print ( input ( " Lotfan Name Khod Ra Vared Konid : " ) )
-     name = print ( input ( " Lotfan Ramze Khod Ra Vared Konid : " ) )
-
-     if name == 1401123078 and  password == "0020082101" :
-          break
-
+username = input ( " Lotfan Name Karbary Khod Ra Vared Konid : " )
+while username !="1401123078":
+   print(" Name Karbary Eshtebah Assst " )
+   username=input( " Lotfan Name Karbary Khod Ra Vared Konid : " )
+password = input ( " Lotfan Ramze Obooor Khod Ra Vared Konid : " )
+while password != "0020082101" :
+   print ( " Ramze Obooor Eshtebah Assst " )
+   password = input ( " Lotfan Ramze Obooor Khod Ra Vared Konid : " )
 print ( " Shoma Vared System Shodid " )
 print ( " Khosh Amadid " )
 
